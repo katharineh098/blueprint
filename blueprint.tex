@@ -1,0 +1,83 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{hyperref}
+
+\title{Effect of Ferric Ammonium Citrate Concentration on Cyanotype Image Quality}
+\author{Meihui Huang}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This paper explores the effect of varying concentrations of ferric ammonium citrate on the image quality of cyanotype prints. Using a modified blueprinting process, three sample solutions are prepared and applied to paper. We aim to determine the perfect ratio for achieving the best image quality.
+\end{abstract}
+
+\section{Introduction}
+The cynotype process is a photographic printing method that produced a cyan-blue print through the reaction of ferric ammonium citrate and potassium ferricyanide. First introduced in the 19th century, it has since been used in artistic and engineering contexts. This experiment aims to evaluate how the concentration of ferric ammonium citrate influence the final image quality, specifically the contrast and intensity of the bluecoloration.
+
+\section{Theoretical Background}
+The cynotype process relies on a redox reaction between \ce{Fe{3+}} from ferric ammonium citrate and \ce{[Fe(CN)6]{3-}} from potassium ferricyanide. Under UV light, ferric irons are reduced to ferrous ions:
+
+\begin{equation}
+\ce{Fe^{3+}} -> [h\nu]Fe^{2+}}
+\end{equation}
+
+The ferrous irons then react with ferricyanide to form insoluble Prussian blue:
+
+\begin{equation}
+\ce{Fe^{2+}+[FeC(CN)6]^{3-} -> Fe[Fe(CN)6] (s)} 
+\end{equation}
+
+This compound gives cyanotype its characteristic blue color.
+
+\section{Hypothesis}
+An increased concentration of ferric ammonium citrate will result in a deeper blue coloration and higher contrast due to a greater availability of light-sensitive \ce{Fe^{3+}} ions.
+
+\section{Methodology}
+We prepare three cyanotype solutions with varying concentrations of ferric ammonium citrate (10\% 20\% 30\%), maintaining a constant pottasium ferricyanide concentration. Solutions are applied to paper, dried, exposed to UV light with the same pattern, then washed and dried.
+
+\section{Experiment}
+\begin{itemize}
+  \item \textbf{materials:} Ferric ammonium citrate, pottasium ferricyanide, distilled water, paper, UV light source, transparent sheet.
+  \item \textbf{Steps:}
+  \begin{enumerate}
+    \item Mix the chemicals in three different ratios.
+    \item Coat and dry the paper in a dark room.
+    \item Expose for 10 minutes in direct sun light.
+    \item Wash with water and let dry.
+  \end{enumerate}
+\end{itemize}
+
+\section{Evaluation}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{ccc}
+\toprule
+\textbf{Ferric Ammonium Citrate [\%]} & \textbf{Blue Intensity [1-10]} & \textbf{Contrast [1-10]} \\
+\midrule
+10 & 4 & 3 \\
+20 & 7 & 7 \\
+30 & 9 & 6 \\
+% Additional data points to be added here
+\bottomrule
+\end{tabular}
+\caption{Visual evaluation of cynotype quality at different concentrations.}
+\label{tab:results}
+\end{table}
+
+\section{Discussion}
+The results confirm that increased ferric ammonium citrate concentration leads to a darker blue and better image contrast, but too much would lead to a blurring and loss of highlight - there's a sweet spot to be found.
+
+\section{Outlook}
+Further studies could analyze UV exposure time or test alternative substrates (e.g., fabric or wood). Quantititive colormetric analysis via software like ImageJ could replace visual scoring for higher objectivity.
+
+\section{Acknowledgements}
+This experiment was led by Stephan Bökelmann, part of ..... Funding for the material was provided by....
+
+\end{document}
